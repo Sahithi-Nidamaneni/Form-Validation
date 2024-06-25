@@ -1,0 +1,32 @@
+
+.registration-container {
+    background-image: url('https://img.freepik.com/free-photo/office-supplies_23-2148103974.jpg?size=626&ext=jpg&ga=GA1.1.885087957.1719248855&semt=ais_user');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.registration-row {
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
+}
+
+.invalid-feedback.active {
+    display: block;
+}
